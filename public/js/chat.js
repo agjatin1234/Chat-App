@@ -26,7 +26,7 @@ const autoscroll= () => {
 
     if(containerHeight - newMessageHeight <= scrollOffset) {
         messages.scrollTop= messages.scrollHeight
-    }
+    } 
 }
 // socket.on('countUpdate', (count) => {
 //     console.log('count is '+ count)
